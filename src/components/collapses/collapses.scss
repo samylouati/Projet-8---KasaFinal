@@ -50,10 +50,17 @@
                 transition: transform 0.5s ease;
                 cursor: pointer;
             }
+
+            .up {
+                transform: rotate(180deg);
+            }
+
         }
 
         .textContent {
             height: 100%;
+            opacity: 1;
+            transition: opacity 0.5s ease;
 
             p {
                 @media (max-width: 700px) {
@@ -68,7 +75,16 @@
                 border-radius: 0px 0px 10px 10px;
                 list-style: none;
             }
+        .collapsed {
+            opacity: 0;
+        }
+
+        .test {
+            transition: opacity 0.5s ease;
+        }
+
         } 
+
     }
 }
 
