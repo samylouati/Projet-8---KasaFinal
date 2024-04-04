@@ -21,9 +21,9 @@ export function Location() {
         return <Error404 />
     }
 
-    //Liste pour les equipements : 
-    const equipmentsList = logement.equipments.map((equipments, index) => (
-        <li key={index}>{equipments}</li>
+    //Extraction des equipements sous forme de liste :
+    const equipmentsList = logement.equipments.map((equipment, index) => (
+        <li key={index}>{equipment}</li>
     ));
 
     return (
@@ -42,11 +42,7 @@ export function Location() {
                         <Collapses subject="Description" text={logement.description}/>
                     </div>
                     <div className="collapsesContainer">
-                        <Collapses subject="Equipements">
-                            <ul>
-                                {equipmentsList}
-                            </ul>
-                        </Collapses>
+                        <Collapses subject="Equipements" text={equipmentsList}/>                       
                     </div>
                 </section>
             </div>
