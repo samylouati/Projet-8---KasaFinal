@@ -1,11 +1,13 @@
 .collapsesContainer {
     @media (max-width: 700px) {
         padding: 0px 20px;
-        margin-top: 20px;
     }
-    width: 100%;
 
     .collapses {
+        @media (max-width: 700px) {
+            
+        
+        }
         display: flex;
         flex-direction: column;
         margin: 10px 0px 20px;
@@ -15,8 +17,6 @@
         .collapses_content {
             @media (max-width: 700px) {
                 height: 30px;
-                margin: 0px;
-                padding: 0px;
             }
             display: flex;
             justify-content: space-between;
@@ -50,6 +50,9 @@
         }
 
         p {
+            @media (max-width: 700px) {
+                font-size: 14px;
+            }
             position: relative;
             z-index: -1000;
             font-family: Montserrat;
@@ -71,5 +74,9 @@
 }
 
 .collapsesAbout {
+        @media (max-width: 700px) {
+            padding: 0px;
+            margin: 0px;
+        }
     padding: 30px 100px;
 }
