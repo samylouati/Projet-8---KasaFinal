@@ -1,7 +1,27 @@
 .notes {
+    @media (max-width: 830px) {
+        padding-left: 75px;
+        padding-right: 0px;  
+    } 
+    @media (max-width: 700px) {
+        padding-left: 20px;   
+        padding-right: 0px;    
+    } 
+    padding-right: 100px;
     display: flex;
+    justify-content: flex-end ;
 
     i {
+        @media (max-width: 830px) {
+            font-size: 24px;
+            padding: 5px 0px 0px 10px;
+          } 
+
+          @media (max-width: 700px) {
+            padding: 0px;
+            font-size: 18px;
+            flex-wrap: wrap;
+          } 
         color: #c4c4c4;
         font-size: 36px;
         padding: 20px 0px 0px 10px;

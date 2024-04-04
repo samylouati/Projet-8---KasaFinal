@@ -1,18 +1,20 @@
 .collapsesContainer {
     @media (max-width: 700px) {
-        padding: 0px 20px;
+        padding: 0px;
     }
+    width: 100%;
 
     .collapses {
         @media (max-width: 700px) {
-            
-        
+            padding: 0px;
         }
         display: flex;
         flex-direction: column;
         margin: 10px 0px 20px;
+        padding: 0px 25px 0px 50px;
         border-radius: 5px;
         overflow: hidden;
+
 
         .collapses_content {
             @media (max-width: 700px) {
@@ -48,40 +50,34 @@
                 transition: transform 0.5s ease;
                 cursor: pointer;
             }
-            i.rotate180 {
-                transform: rotate(180deg);
-            }
         }
 
-        p {
-            @media (max-width: 700px) {
-                font-size: 14px;
-            }
-            position: relative;
-            z-index: -1000;
-            font-family: Montserrat;
-            font-size: 18px;
-            font-weight: 500;
-            background-color: #F6F6F6;
-            margin: 0px 0px 10px;
-            border-radius: 0px 0px 10px 10px;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.5s ease;
-        }
+        .textContent {
+            height: 100%;
 
-        p.open {
-            max-height: 1000px;
-        }
+            p {
+                @media (max-width: 700px) {
+                    font-size: 14px;
+                }
+                font-family: Montserrat;
+                font-size: 18px;
+                font-weight: 500;
+                background-color: #F6F6F6;
+                margin: 0px;
+                padding: 20px;
+                border-radius: 0px 0px 10px 10px;
+            }
+        } 
     }
 }
 
 .collapsesLocation {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    margin: 0px;
-    gap: 75px;
+    @media (max-width: 700px) {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+   display: flex;
+   padding: 0px 75px 0px 50px;
 }
 
 .collapsesAbout {
@@ -89,5 +85,6 @@
             padding: 0px;
             margin: 0px;
         }
-    padding: 30px 100px;
+        padding: 30px 75px 0px 50px;
+    
 }

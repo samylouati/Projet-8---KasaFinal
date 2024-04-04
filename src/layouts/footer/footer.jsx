@@ -5,7 +5,6 @@ export function Footer () {
         <footer>
             <img src={LOGO} alt="" />
             <p>© 2020 Kasa. All rights reserved</p>
-            <h4>test</h4>
         </footer>
     );
 }

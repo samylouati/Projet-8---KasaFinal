@@ -21,6 +21,11 @@ export function Location() {
         return <Error404 />
     }
 
+    //Liste pour les equipements : 
+    const equipmentsList = logement.equipments.map((equipments, index) => (
+        <li key={index}>{equipments}</li>
+    ));
+
     return (
         <div>
             <Slide pictures={logement.pictures}/>
@@ -37,7 +42,11 @@ export function Location() {
                         <Collapses subject="Description" text={logement.description}/>
                     </div>
                     <div className="collapsesContainer">
-                        <Collapses subject="Equipements" text={logement.equipments}/>
+                        <Collapses subject="Equipements">
+                            <ul>
+                                {equipmentsList}
+                            </ul>
+                        </Collapses>
                     </div>
                 </section>
             </div>
