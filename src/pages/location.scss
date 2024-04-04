@@ -1,0 +1,10 @@
+.informations {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+
+    .location_information {
+        display: flex;
+        justify-content: space-between;
+    }
+}

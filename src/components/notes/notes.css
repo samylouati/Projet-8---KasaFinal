@@ -1,0 +1,11 @@
+.notes {
+  display: flex;
+}
+.notes i {
+  color: #c4c4c4;
+  font-size: 36px;
+  padding: 20px 0px 0px 10px;
+}
+.notes .good {
+  color: #ff6060;
+}/*# sourceMappingURL=notes.css.map */

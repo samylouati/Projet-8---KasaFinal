@@ -1,0 +1,9 @@
+.informations {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+}
+.informations .location_information {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=location.css.map */

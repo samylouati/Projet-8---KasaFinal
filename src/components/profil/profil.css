@@ -1,0 +1,21 @@
+.profil {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+.profil h2 {
+  color: #ff6060;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 22%;
+  text-align: end;
+  margin-right: 20px;
+}
+.profil img {
+  background-color: #c4c4c4;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}/*# sourceMappingURL=profil.css.map */
