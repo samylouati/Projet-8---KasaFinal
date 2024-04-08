@@ -4,8 +4,8 @@ export function NavBar () {
   
     return (
             <nav>
-                <NavLink exact to="/" activeClassName="active">Accueil</NavLink>
-                <NavLink to="/about" activeClassName="active">A propos</NavLink>
+                <NavLink to="/" activeclassname="active">Accueil</NavLink>
+                <NavLink to="/about" activeclassname="active">A propos</NavLink>
             </nav>
     );
 }
