@@ -1,24 +1,27 @@
 .rotate-180 {
     transform: rotate(-180deg);
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
 }
 
 .rotate180 {
     transform: rotate(180deg);
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
 }
 
 .visible {
     opacity: 1;
-    transition: opacity 0.5s ease;
+    transition: opacity 1s ease, transform 1s ease;
     transform: translateY(0);
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
 }
 
 .hidden {
     opacity: 0;
-    transition: opacity 0.5s ease;       
-    transform: translateY(-200%);
-    margin: 0px;   
-    display: none;
+    transition: opacity 1s ease, transform 1s ease, height 1s ease; 
+    transform: translateY(-100%);
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
 }
