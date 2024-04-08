@@ -5,9 +5,9 @@ export function Title(props) {
             <h3>{props.title}</h3>
             <p>{props.location}</p>
             <div className="infos">
-                <p>Cozy</p>
-                <p>Canal</p>
-                <p>Paris 10</p>
+                {props.tags.map((tag, index) => (
+                    <p key={index}>{tag}</p>
+                ))}
             </div>
         </div>
     )

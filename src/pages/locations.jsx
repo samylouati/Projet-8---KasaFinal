@@ -26,12 +26,17 @@ export function Location() {
         <li key={index}>{equipment}</li>
     ));
 
+    //Extraction des tags : 
+    const tagsList = logement.tags.map ((tag, index) => (
+        <p key={index}>{tag}</p>
+    ))
+
     return (
         <div>
             <Slide pictures={logement.pictures}/>
             <div className="informations">
                 <div className="location_information">
-                    <Title title={logement.title} location={logement.location}/>
+                    <Title title={logement.title} location={logement.location} tags={tagsList} />
                     <div className="identities">
                         <Profil name={logement.host.name} picture={logement.host.picture}/>
                         <Notes rating={logement.rating} />
