@@ -6,7 +6,7 @@ export function Title(props) {
             <p>{props.location}</p>
             <div className="infos">
                 {props.tags.map((tag, index) => (
-                    <div key={index}>{tag}</div>
+                    <div className="tags" key={index}>{tag}</div>
                 ))}
             </div>
         </div>
