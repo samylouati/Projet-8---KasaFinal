@@ -1,11 +1,11 @@
 .collapsesContainer {
-    @media (max-width: 320px) {
+    @media (max-width: 768px) {
         padding: 0px;
     }
     width: 100%;
 
     .collapses {
-        @media (max-width: 320px) {
+        @media (max-width: 768px) {
             padding: 0px;
         }
         display: flex;
@@ -17,7 +17,7 @@
 
 
         .collapses_content {
-            @media (max-width: 320px) {
+            @media (max-width: 768px) {
                 height: 30px;
             }
             display: flex;
@@ -31,7 +31,7 @@
             
 
             h2 {
-                @media (max-width: 320px) {
+                @media (max-width: 768px) {
                     font-size: 13px;
                     margin-left: 10px;
                 }
@@ -43,7 +43,7 @@
             }
 
             i {
-            @media (max-width: 320px) {
+            @media (max-width: 768px) {
                 font-size: 20px;
                 margin-right: 10px;
             }
@@ -60,7 +60,7 @@
             z-index: 0; 
             
             p {
-                @media (max-width: 320px) {
+                @media (max-width: 768px) {
                     font-size: 14px;
                 }
                 font-family: Montserrat;
@@ -78,7 +78,7 @@
 }
 
 .collapsesLocation {
-    @media (max-width: 320px) {
+    @media (max-width: 768px) {
         flex-direction: column;
         padding: 0px 20px;
     }
@@ -87,7 +87,7 @@
 }
 
 .collapsesAbout {
-        @media (max-width: 320px) {
+        @media (max-width: 768px) {
             padding: 0px 20px;
             margin: 0px;
         }
