@@ -6,6 +6,7 @@ figure {
         min-width: 100%;
     }
     width: 28%;
+    margin: 0px;
     min-width: 340px;
     height: 340px;
     background-color: #FF6060;   
@@ -38,7 +39,7 @@ figure {
             font-family: Montserrat;
             font-size: 18px;
             font-weight: 700;
-            padding: 70px 20px;
+            padding: 70px 20px 0px;
             position: relative;
             z-index: 1;
         }

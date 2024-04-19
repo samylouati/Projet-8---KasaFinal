@@ -5,6 +5,8 @@ nav {
     }
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    margin: 2px;
 
     a {
         @media (max-width: 768px) {

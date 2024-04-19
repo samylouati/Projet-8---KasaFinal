@@ -4,6 +4,7 @@
         flex-direction: column;
         padding: 0px 20px 20px;
         margin: 0px;
+        gap: 0px;
     }
     padding: 50px;
     margin: 45px 100px 50px;
@@ -11,5 +12,6 @@
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 50px;
 }
